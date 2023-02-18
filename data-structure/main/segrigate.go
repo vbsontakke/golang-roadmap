@@ -12,7 +12,6 @@ func segrigate(input []int)[]int{
 			start++
 			end--
 		}else if(input[start]==0){
-
 			start++
 		}else if(input[end]==1){
 			end--

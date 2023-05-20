@@ -1,0 +1,37 @@
+
+Problem Solving in Go:
+
+Support a request counter API
+GET /user/{name}
+Responds with the name of the user and the number of times the user has visited the URI.
+Write Unit Tests for the above API.
+
+
+
+DB Design Problem:
+
+ - each product has a single brand.
+     eg: (product) dettol herbal sanitizer - (brand) Dettol
+ 
+ - a product can have multiple categories
+     eg: (product) dettol herbal sanitizer - (categories) [ COVID-CARE, FIRST-AID, DAILY-USE ]
+     
+ - a product can have multiple variants
+     eg: (product) dettol herbal sanititzer 200ml -
+     (variants) [dettol herbal sanititzer 400ml, dettol herbal sanititzer 1000ml, dettol herbal sanititzer 200ml lavendar flavor, dettol herbal sanititzer 200ml lemon flavor ]
+
+// Descriptive
+Product ID ( Primary Key) 
+Product name 
+Brand 
+
+
+//Categories
+Product ID (Key)
+Categories
+
+
+//Varients
+Priduct ID (Key)
+Varients
+

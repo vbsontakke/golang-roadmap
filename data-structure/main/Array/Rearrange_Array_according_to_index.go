@@ -1,4 +1,4 @@
-package main
+package Array
 
 // Given an array of elements of length N, ranging from 0 to N – 1. 
 //All elements may not be present in the array. If the element is not present 
